@@ -321,12 +321,14 @@ section .title::after{
     width: 60%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 60%;
 }
-.skills-content .right .python::before{
-    width: 50%;
+.skills-content .right .net::before{
+    width: 70%;
 }
-
+.skills-content .right .sql::before{
+    width: 90%;
+}
 /* contact section styling */
 .contact .title::after{
     content: "get in touch";
@@ -351,7 +353,7 @@ section .title::after{
     align-items: center;
 }
 .contact .contact-content .row .info{
-    margin-left: 30px;
+    margin-left: 10px;
 }
 .contact .contact-content .row i{
     font-size: 25px;
@@ -361,7 +363,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: #3b41ad;
 }
 .contact .right form .fields{
     display: flex;
@@ -601,4 +603,5 @@ img {
         font-size: 23px;
         line-height: 38px;
     }
+}
 }
